@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Tungsten Bold';
+    src: url('../fonts/Tungsten-Bold.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-form-container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    height: 100%;
+    background-image: url('../assets/fondo_bull_marketing.png');
+    background-size: cover;
+    background-position: 80%;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.main-form-container h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #B3B3B3;
+}
+
+.main-form-container p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.55rem;
+    color: #B3B3B3;
+    margin-bottom: 20px;
+}
+
+.bull-logo, .ctg-logo {
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.main-form-container form label {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #B3B3B3;
+    align-self: flex-start;
+}
+
+.main-form-container form input {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.1rem;
+    background-color: #E4E4E4;
+    border: 2px solid #F05A22;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.main-form-container form button {
+    background-color: #F05A22;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 40px;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/* Estilos para desktop */
+@media (min-width: 768px) {
+    .main-form-container {
+        padding: 40px;
+        height: 100%;
+    }
+
+    .main-form-container h1 {
+        font-size: 3rem;
+    }
+
+    .main-form-container p {
+        font-size: 2rem;
+    }
+
+    .bull-logo, .ctg-logo {
+        width: 200px;
+        margin-top: 0;
+    }
+
+    .main-form-container form {
+        width: 50%;
+    }
+
+    .main-form-container form label {
+        font-size: 1.5rem;
+    }
+
+    .main-form-container form input {
+        font-size: 1.3rem;
+        padding: 15px;
+    }
+
+    .main-form-container form button {
+        font-size: 1.5rem;
+        padding: 15px 30px;
+    }
+}
