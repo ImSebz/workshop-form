@@ -41,8 +41,8 @@
             <label for="position">Cargo</label>
             <input type="text" id="position" name="position" placeholder="Ingresa tu cargo" required>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Ingresa tu email" required>
+            <label for="email">Correo</label>
+            <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
 
             <button type="submit">Enviar</button>
         </form>
