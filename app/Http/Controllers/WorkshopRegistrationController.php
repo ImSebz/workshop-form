@@ -17,8 +17,6 @@ class WorkshopRegistrationController extends Controller
             'email' => 'required|string|email|max:255|unique:workshop_registrations',
         ]);
 
-        dd($request->all());
-
         WorkshopRegistration::create($request->all());
 
         return redirect()->away('https://bullmarketing.com.co/');
