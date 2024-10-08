@@ -26,7 +26,7 @@
             </div>
         @endif
 
-        <form action="/registro" method="POST">
+        <form action="{{ route('registro') }}" method="POST">
             @csrf
             <label for="name">Nombre</label>
             <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
