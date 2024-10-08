@@ -8,7 +8,9 @@ class WorkshopRegistrationController extends Controller
 {
     public function store(Request $request)
     {
-        
+
+        dd($request->all());
+
         $request->validate([
             'name' => 'required|string|max:255',
             'phone' => 'required|string|min:10',
