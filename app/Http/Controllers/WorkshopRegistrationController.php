@@ -8,6 +8,7 @@ class WorkshopRegistrationController extends Controller
 {
     public function store(Request $request)
     {
+        
         $request->validate([
             'name' => 'required|string|max:255',
             'phone' => 'required|string|min:10',
@@ -15,6 +16,8 @@ class WorkshopRegistrationController extends Controller
             'position' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:workshop_registrations',
         ]);
+
+        dd($request->all());
 
         WorkshopRegistration::create($request->all());
 
