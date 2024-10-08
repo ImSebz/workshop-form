@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/register', [WorkshopRegistrationController::class, 'store']);
+Route::post('/registro', [WorkshopRegistrationController::class, 'store']);
