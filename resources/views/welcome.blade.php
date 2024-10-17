@@ -8,7 +8,7 @@
     <link rel="icon" href="https://bullmarketing.com.co/wp-content/uploads/2022/04/cropped-favicon-bull-192x192.png"
         sizes="192x192" />
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
-    <title>Bull Marketing | Formulario workshop</title>
+    <title>Bull Marketing | #ExperienciaBull</title>
 </head>
 
 <body>
@@ -17,8 +17,8 @@
             <img class="bull-logo" src="{{ asset('assets/bull-logo.png') }}" alt="Bull Marketing Logo">
             <img class="ctg-logo" src="{{ asset('assets/logo_ctg.png') }}" alt="Más Cartagena Logo">
         </a>
-        <h1>Workshop: "El HP del Shopper"</h1>
-        <p>¡Cupos limitados! Inscríbete aquí.</p>
+        <h1>¡Vive la #ExperienciaBull en +CTG!</h1>
+        <p>Inscríbete aquí</p>
 
         @if (session('success'))
             <div class="alert alert-success">
