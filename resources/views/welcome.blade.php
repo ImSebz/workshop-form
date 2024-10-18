@@ -14,7 +14,7 @@
 <body>
     <div class="main-form-container">
         <a href="https://bullmarketing.com.co/" target="_blank">
-            <img class="bull-logo" src="{{ asset('assets/bull-logo.png') }}" alt="Bull Marketing Logo">
+            <img class="bull-logo" src="{{ asset('assets/bull-logov1.png') }}" alt="Bull Marketing Logo">
             <img class="ctg-logo" src="{{ asset('assets/logo_ctg.png') }}" alt="Más Cartagena Logo">
         </a>
         <h1>¡Usa el #ExperienciaBull y acumula puntos para ganar!</h1>
