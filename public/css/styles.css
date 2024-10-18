@@ -94,7 +94,7 @@
     }
 
     .main-form-container h1 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 
     .main-form-container p {
@@ -111,17 +111,19 @@
     }
 
     .main-form-container form label {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 
     .main-form-container form input {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         padding: 30px;
     }
 
     .main-form-container form button {
         font-size: 2.5rem;
         padding: 20px 30px;
+        margin-top: 50px;
     }
 
 }
+
