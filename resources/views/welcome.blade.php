@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="https://bullmarketing.com.co/wp-content/uploads/2022/04/cropped-favicon-bull-192x192.png"
         sizes="192x192" />
-    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/styles.css') }}?v={{ time() }}">
     <title>Bull Marketing | #ExperienciaBull</title>
 </head>
 
