@@ -87,9 +87,10 @@
 }
 
 .error-message {
+    font-family: 'Bebas Neue', sans-serif;
     color: red;
-    font-size: 0.9rem;
-    margin-top: 5px;
+    font-size: 2.5rem;
+    margin-top: 10px;
 }
 
 /* Estilos para desktop portrait */
