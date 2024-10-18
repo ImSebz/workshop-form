@@ -94,33 +94,33 @@
     }
 
     .main-form-container h1 {
-        font-size: 3rem;
+        font-size: 4.5rem;
     }
 
     .main-form-container p {
-        font-size: 2rem;
+        font-size: 3.5rem;
     }
 
     .bull-logo, .ctg-logo {
-        width: 200px;
+        width: 380px;
         margin-top: 0;
     }
 
     .main-form-container form {
-        width: 50%;
+        width: 90%;
     }
 
     .main-form-container form label {
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
 
     .main-form-container form input {
-        font-size: 1.3rem;
-        padding: 15px;
+        font-size: 2.5rem;
+        padding: 30px;
     }
 
     .main-form-container form button {
-        font-size: 1.5rem;
-        padding: 15px 30px;
+        font-size: 2.5rem;
+        padding: 20px 30px;
     }
 }
