@@ -18,7 +18,7 @@ class CreateWorkshopRegistrationsTable extends Migration
             $table->string('phone');
             $table->string('company');
             $table->string('position');
-            $table->string('email')->unique();
+            $table->string('email');
             $table->timestamps();
         });
     }

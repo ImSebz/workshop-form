@@ -14,7 +14,7 @@ class WorkshopRegistrationController extends Controller
             'phone' => 'required|string|min:10',
             'company' => 'required|string|max:255',
             'position' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:workshop_registrations',
+            'email' => 'required|string|email|max:255',
         ]);
 
         WorkshopRegistration::create($request->all());
