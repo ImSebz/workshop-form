@@ -94,9 +94,9 @@
 }
 
 /* Estilos para pantallas de 384 x 512 píxeles */
-@media (max-width: 390px) and (max-height: 600px) {
+@media (max-width: 600px) and (max-height: 800px) {
     .main-form-container {
-        padding: 60px;
+        padding: 70px;
         padding-top: 10px;
     }
     
