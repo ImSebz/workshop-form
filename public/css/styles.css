@@ -93,6 +93,51 @@
     margin-top: 10px;
 }
 
+/* Estilos para pantallas de 384 x 512 píxeles */
+@media (max-width: 390px) and (max-height: 600px) {
+    .main-form-container {
+        padding: 60px;
+        padding-top: 10px;
+    }
+
+    .main-form-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .main-form-container p {
+        font-size: 1.2rem;
+    }
+
+    .bull-logo, .ctg-logo {
+        width: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .main-form-container form {
+        width: 100%;
+    }
+
+    .main-form-container form label {
+        font-size: 1rem;
+    }
+
+    .main-form-container form input {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .main-form-container form button {
+        font-size: 1rem;
+        padding: 8px 16px;
+        margin-top: 20px;
+    }
+
+    .error-message {
+        font-size: 1.2rem;
+    }
+}
+
 /* Estilos para desktop portrait */
 @media (min-width: 768px) {
     .main-form-container {
@@ -131,6 +176,4 @@
         padding: 20px 30px;
         margin-top: 50px;
     }
-
 }
-
