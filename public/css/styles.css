@@ -99,42 +99,42 @@
         padding: 60px;
         padding-top: 10px;
     }
-
+    
     .main-form-container h1 {
-        font-size: 1.5rem;
+        font-size: 24px; /* 1.5rem */
     }
-
+    
     .main-form-container p {
-        font-size: 1.2rem;
+        font-size: 19.2px; /* 1.2rem */
     }
-
+    
     .bull-logo, .ctg-logo {
         width: 100px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-
+    
     .main-form-container form {
         width: 100%;
     }
-
+    
     .main-form-container form label {
-        font-size: 1rem;
+        font-size: 16px; /* 1rem */
     }
-
+    
     .main-form-container form input {
-        font-size: 0.9rem;
+        font-size: 14.4px; /* 0.9rem */
         padding: 8px;
     }
-
+    
     .main-form-container form button {
-        font-size: 1rem;
+        font-size: 16px; /* 1rem */
         padding: 8px 16px;
         margin-top: 20px;
     }
-
+    
     .error-message {
-        font-size: 1.2rem;
+        font-size: 19.2px; /* 1.2rem */
     }
 }
 
